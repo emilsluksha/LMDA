@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LMDA – Latvijas Mūsdienu Deju Asociācija</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header><div class="bar">
+<a class="logo" href="#sakums"><i></i>LMDA</a>
+<button class="burger" id="burger" aria-expanded="false" aria-controls="nav">Izvēlne</button>
+<nav id="nav" aria-label="Galvenā izvēlne">
+<a href="#sakums">Sākums</a><a href="#sacensibas">Sacensības</a><a href="#licences">Licences</a><a href="#dokumenti">Dokumenti</a><a href="#noteikumi">Noteikumi</a><a href="#kontakti">Kontakti</a>
+</nav></div></header>
+
+<main>
+<!-- SĀKUMS -->
+<section class="view" id="v-sakums">
+<div class="hero">
+<div>
+<h1>Mūsdienu deja Latvijā sākas šeit</h1>
+<p>Latvijas Mūsdienu Deju Asociācija ir ekskluzīvais IDO (International Dance Organization) pārstāvis Latvijā. Mēs licencējam studijas, trenerus un tiesnešus, rīkojam reitinga sacensības un publicējam rezultātus.</p>
+<a class="btn" href="#sacensibas">Sacensību kalendārs</a><a class="btn" style="background:var(--soft);color:var(--ink)" href="#licences">Kā iegūt licenci</a>
+</div>
+<div class="event">
+<h2>Dejas elpa 2026</h2>
+<p>21.11.2026.<br>Daugavpils Olimpiskais centrs, Stadiona iela 1, Daugavpils</p>
+<div class="count" id="count" aria-live="off"></div>
+<a class="btn alt" href="https://www.lmda.lv/mod_info/article_files/DEAS%20ELPA_2026_LV.pdf">Nolikums (PDF)</a><a class="btn alt" href="https://www.lmda.lv/mod_info/article_files/appl_form_Dejas%20elpa%202026..xlsx">Pieteikuma anketa</a>
+</div></div>
+
+<h2 style="margin-top:56px">Jaunākie rezultāti</h2>
+<div class="grid">
+<div class="card"><h3>LMDA reitings 2025–2026</h3><p class="note">Sezonas kopvērtējums (26.04.2026.)</p><a href="https://www.lmda.lv/mod_info/article_files/reitings%2026-04-26.xlsx">Lejupielādēt reitingu</a></div>
+<div class="card"><h3>Grand Prix Jelgava 2026</h3><p class="note">25. un 26. aprīlis</p><a href="https://www.lmda.lv/mod_info/article_files/Grand%20Prix%20Jelgava%202026%20-%20Results..xlsx">1. diena</a> &nbsp;·&nbsp; <a href="https://www.lmda.lv/mod_info/article_files/Grand%20Prix%20Jelgava%202026%20-%20Results%20%28DAY%202%29..xlsx">2. diena</a></div>
+<div class="card"><h3>Performing Arts čempionāts</h3><p class="note">22.03.2026.</p><a href="https://www.lmda.lv/mod_info/article_files/REZULTA%CC%84TI%2022.03.2026.21.xlsx">Rezultāti</a></div>
+</div>
+<p><a href="#sacensibas">Visi rezultāti un arhīvs</a></p>
+
+<div class="quote"><p>Galvenais nav uzvarēt. Galvenais ir piedalīties cīņā par uzvaru.</p>
+<span><b>Dejotājam.</b> Piedalies sacensībās, un tu iegūsi sev vislielāko meistarības izaugsmes iespēju ilgtermiņā.</span><br><br>
+<span><b>Vecākiem.</b> Tas, ka jūsu bērnam ir panākumi vai nav, nekādi neraksturo jūs kā labu vai sliktu vecāku. Toties jau dejotāja esamība, kurš trenējas, cienī savu skolotāju, māk strādāt komandā, ir psiholoģiski stabils, labi iekļaujas kolektīvā, pašaizliedzīgi strādā un nenolaiž rokas grūtos brīžos, JAU IR JŪSU kā vecāka panākums bērna audzināšanā.</span></div>
+</section>
+
+<!-- SACENSĪBAS -->
+<section class="view" id="v-sacensibas">
+<h1>Sacensības</h1>
+<h2>Kalendārs 2025–2026</h2>
+<ol class="tl" id="cal"></ol>
+
+<h2 style="margin-top:48px">Rezultāti</h2>
+<div class="grid">
+<div class="card big"><h3>Sezona 2025–2026</h3><ul class="files" id="r26"></ul></div>
+<div class="card big"><h3>Arhīvs</h3><ul class="files" id="r25"></ul></div>
+</div>
+
+<h2 style="margin-top:40px">Citi sadaļas</h2>
+<div class="grid">
+<a class="card" href="https://www.lmda.lv/?l=267">Reitinga rezultāti</a>
+<a class="card" href="https://www.lmda.lv/?l=244">Latvijas čempioni</a>
+<a class="card" href="https://www.lmda.lv/?l=262">Kvalifikācijas pasākumi</a>
+<a class="card" href="https://www.lmda.lv/?l=105">Galerijas</a>
+</div>
+<h3>Atbalstītāji</h3>
+<div class="sup"><a href="http://www.stoptime.lv">Stoptime</a><a href="https://nelagems.com">Nelagems</a><a href="http://www.jogitaspasakumi.lv">Jogitas pasākumi</a><a href="http://www.sportwin.lv">Sportwin</a><a href="http://www.kolonna.com">Kolonna</a><a href="https://www.lmda.lv/?l=275">Visi atbalstītāji</a></div>
+</section>
+
+<!-- LICENCES -->
+<section class="view" id="v-licences">
+<h1>Licences</h1>
+<p>Licence ir nepieciešama, lai piedalītos LMDA un IDO sacensībās. Dejotājs uz sacensībām pats pieteikties nevar, to dara studija.</p>
+<div class="grid">
+<div class="card big"><div class="price">5 €</div><h3>Dejotāja gada licence</h3><p>Nepieciešama dalībai augstākā ranga IDO sacensībās. Derīga līdz kalendārā gada beigām.</p></div>
+<div class="card big"><div class="price">3 €</div><h3>Vienreizējā licence</h3><p>Par vienām sacensībām Latvijā. Nepieciešama dalībai zemāka ranga IDO sacensībās. Netiek ieskaitīta gada licences maksā.</p></div>
+</div>
+<p class="note">Cenas pēc LMDA cenrāža. IDO sacensību kalendārs: <a href="https://www.ido-dance.com/">ido-dance.com</a></p>
+
+<h2 style="margin-top:40px">Studiju licences</h2>
+<div class="sup"><a href="https://www.lmda.lv/?l=138">MDK Kaprīze</a><a href="https://www.lmda.lv/?l=208">Born 2 dance</a><a href="https://www.lmda.lv/?l=271">Night &amp; Day dance studio</a><a href="https://www.lmda.lv/?l=273">Backstage art center</a><a href="https://www.lmda.lv/?l=274">Stoptime dance studio</a></div>
+
+<h2 style="margin-top:40px">Pārējās licences un dokumenti</h2>
+<div class="grid">
+<a class="card" href="https://www.lmda.lv/?l=121"><h3>Treneru licences</h3><p class="note">Trīspakāpju ikgadējā licencēšana</p></a>
+<a class="card" href="https://www.lmda.lv/?l=122"><h3>Tiesnešu licences</h3></a>
+<a class="card" href="https://www.lmda.lv/?l=202"><h3>Supervisor</h3></a>
+<a class="card" href="#dokumenti"><h3>Līgumu paraugi</h3><p class="note">Pieteikumi, pārejas lapa, līgums ar studiju</p></a>
+</div>
+</section>
+
+<!-- NOTEIKUMI -->
+<section class="view" id="v-noteikumi">
+<h1>Noteikumi</h1>
+<p>Nolikums par sadarbības statusu ar LMDA un dejotāju, pasniedzēju, tiesnešu un studiju vadītāju atbildību mūsdienu deju organizācijās.</p>
+<div class="grid">
+<a class="card" href="https://www.lmda.lv/mod_info/article_files/LMDA%20NOLIKUMS.doc"><h3>LMDA nolikums</h3><p class="note">Pilns teksts (DOC)</p></a>
+<a class="card" href="https://www.lmda.lv/mod_info/article_files/Reitinga-nolikums24-25..doc"><h3>Reitinga noteikumi</h3><p class="note">Papildinātie noteikumi 2024–2025 (DOC)</p></a>
+<a class="card" href="https://www.lmda.lv/mod_info/article_files/Sadal%C4%ABjums%20vecuma%20grup%C4%81s%202025.docx"><h3>Vecuma kategorijas</h3><p class="note">Sadalījums vecuma grupās 2025 (DOCX)</p></a>
+<a class="card" href="https://www.lmda.lv/?l=231"><h3>Žūrijas nolikums</h3><p class="note"><a href="https://www.lmda.lv/?l=237">Žūrēšanas kritēriji</a> · <a href="https://www.lmda.lv/?l=246">Atestācijas jautājumi</a></p></a>
+<a class="card" href="https://www.lmda.lv/?l=249"><h3>IDO noteikumi</h3><p class="note"><a href="https://www.lmda.lv/mod_info/article_files/September%202023%20LIST%20of%20IDO%20rule%20changes%20%20%20.pdf">Izmaiņas no 01.01.2024. (PDF)</a></p></a>
+</div>
+
+<h2 style="margin-top:40px">Nolikuma kopsavilkums</h2>
+<details open><summary>Trīs sadarbības statusi</summary><ul>
+<li><b>Sadarbības dalībnieks:</b> studija ar līgumu un LMDA studijas licenci. Drīkst piedalīties visās sacensībās un saņemt atbalstu attiecībās ar treneri un dejotāju. Nav iestāšanās maksas.</li>
+<li><b>Sadarbības partneris:</b> juridiska persona vai reģistrēts individuālais darba veicējs, kura pamatdarbība ir deju apmācība vai deju pasākumu organizēšana. Pārstāvis piedalās deju žanru komiteju sēdēs, balso un lemj, rīko sacensības un meistarklases. Nav iestāšanās maksas.</li>
+<li><b>LMDA biedrs:</b> studija vai persona, kas vismaz gadu bijusi pilnvērtīgs partneris un piedalās tiesnešu kursos, atestācijā, atlašu vai valsts mēroga pasākumu rīkošanā, vai organizācijas pilnveidē. Individuāla persona nevar pieteikt dejotājus savā vārdā. Ja statuss pārtrūkst, iestāšanās maksa jāmaksā no jauna.</li></ul></details>
+<details><summary>Dejotāju tiesības un pienākumi</summary><ul>
+<li>Studijas dejotājam ir LMDA licence un samaksāta gada maksa. Ar studijas rakstisku piekrišanu drīkst papildus trenēties pie jebkura trenera Latvijā vai ārzemēs.</li>
+<li>Jauns dejotājs pirmos 3 mēnešus no licences izsniegšanas drīkst brīvi mainīt studiju, ja citur dejojis mazāk par 3 mēnešiem.</li>
+<li>Transfers dejotājiem: augusts, septembris, oktobris.</li>
+<li>Pāreja ar pārejas lapu, ko paraksta mātes un jaunā studija. Ja līgumā nav citādi, tiek maksāta kompensācija 3–6 mēnešu dejošanas maksas apmērā vai tā, ko nosaka LMDA.</li>
+<li>Pēc pārejas 3–12 mēnešus nedrīkst lietot ne vecās, ne jaunās studijas nosaukumu nominācijā. Izņēmums: formācijas ar līdz 2 pārgājējiem.</li>
+<li>Bez studijas vadītāja piekrišanas un bez kompensācijas drīkst pāriet, ja nenotiek plānotās nodarbības (vismaz 2 fiksēti gadījumi) vai nepamatoti liedz piedalīties LMDA/IDO pasākumos.</li>
+<li>Bez pārejas lapas licence tiek apturēta, un pēc 4 mēnešiem pēc transfera beigām anulēta. Anulētas licences atjaunošana maksā dubultu gada maksu.</li>
+<li>Gada licence jāatjauno katru kalendāro gadu. Uz sacensībām līdzi jāņem derīga dejotāja grāmatiņa ar kvalifikāciju.</li>
+<li>LMDA starpniecība pārejā: pārejas nodeva 10 Ls (summa tekstā norādīta latos) un pilna licences gada maksa. Ja dejotājs pats iesniedz visus parakstus trim pusēm, nodeva nav jāmaksā.</li>
+<li>Ar mātes studijas rakstisku ieteikumu dejotājs drīkst strādāt par treneri.</li></ul></details>
+<details><summary>Treneru un tiesnešu pienākumi</summary><ul>
+<li>Studijas treneris ir persona ar LMDA trenera licenci. Ar vienošanās kopiju LMDA drīkst strādāt arī citās studijās Latvijā un ārzemēs.</li>
+<li>Licence jāatjauno katru gadu (trenerim un tiesnesim).</li>
+<li>Transfers treneriem: jūnijs, jūlijs, augusts, ja līgumā nav citādi. Nepieciešama pārejas lapa un licences pārformēšana.</li>
+<li>Mātes studijai ir tiesības uz kompensāciju no trenera vai jaunās studijas.</li>
+<li>Treneris drīkst brīvi pāriet vai veidot savu studiju, ja ir nokārtojis saistības un iesniedzis pārejas lapu, vai ja darba devējs 2 nedēļas pēc pamatotas pretenzijas nepilda līgumu (arī algu).</li>
+<li>Tiesnesis ir persona ar LMDA vai IDO tiesneša licenci pēc kvalifikācijas eksāmena.</li></ul></details>
+<details><summary>Strīdi, sankcijas, noilgums</summary><ul>
+<li>Strīdus izskata LMDA valde, lēmumi ir saistoši. 2 nedēļu laikā var lūgt atkārtotu izskatīšanu ar jauniem faktiem un argumentētu vēstuli, un tad tā ir obligāta.</li>
+<li>Valde drīkst noteikt moratoriju (liegt piedalīties LMDA un IDO pasākumos) līdz 18 mēnešiem studijai, kas nepilda līguma saistības.</li>
+<li>Jebkurai LMDA licencei ir 3 gadu noilgums (saglabājas LMDA reģistrā).</li>
+<li>Visiem LMDA subjektiem jāslēdz līgumi saskaņā ar nolikumu.</li></ul></details>
+</section>
+
+<!-- DOKUMENTI -->
+<section class="view" id="v-dokumenti">
+<h1>Dokumenti un paraugi</h1>
+<p>Veidlapas, kas vajadzīgas licencei, pārejai uz citu studiju un sadarbībai ar LMDA. Aizpildītos dokumentus nosūtiet uz <a href="mailto:info@lmda.lv">info@lmda.lv</a>.</p>
+<div class="grid" id="docs"></div>
+<p class="note">Pārejas noteikumi (transfers, kompensācijas, termiņi) ir sadaļā <a href="#noteikumi">Noteikumi</a>.</p>
+</section>
+
+<!-- KONTAKTI -->
+<section class="view" id="v-kontakti">
+<h1>Kontakti</h1>
+<div class="grid">
+<div class="card big"><h3>Biedrība «Latvijas Mūsdienu deju asociācija»</h3>
+<table><tr><td>Adrese</td><td>Sprīdīšu iela 20, Jelgava, LV-3001</td></tr>
+<tr><td>Reģ. Nr.</td><td>40008073854</td></tr>
+<tr><td>Banka</td><td>A/S Swedbanka, kods HABALV22</td></tr>
+<tr><td>Konts</td><td>LV23HABA0551004613117</td></tr></table></div>
+<div class="card big"><h3>Igors Grīnbergs</h3><p class="note">LMDA prezidents</p>
+<table><tr><td>Tālrunis</td><td><a href="tel:+37129559284">+371 29559284</a></td></tr>
+<tr><td>E-pasts</td><td><a href="mailto:info@lmda.lv">info@lmda.lv</a></td></tr>
+<tr><td>E-pasts</td><td><a href="mailto:igorslmda@inbox.lv">igorslmda@inbox.lv</a></td></tr></table></div>
+</div>
+</section>
+</main>
+<footer>© LMDA 2007–2026 · Ekskluzīvais IDO pārstāvis Latvijā · <a href="https://www.lmda.lv/?lang=1">English (oriģinālais sūts)</a></footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
